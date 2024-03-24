@@ -1,1 +1,0 @@
-./start.sh && screen -x CCminer
