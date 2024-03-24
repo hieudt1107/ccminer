@@ -1,1 +1,1 @@
-./start.sh && screen -x CCminer
+~/ccminer/start.sh && screen -x CCminer
