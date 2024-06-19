@@ -2,17 +2,17 @@
 	"pools":[
 	{
 		"name": "pool.verus.io",
-        "url": "stratum+tcp://us.cloudiko.io:9999",
+        "url": "stratum+tcp://cn.vipor.net:5040",
 		"timeout": 150
 	},
 	{
 		"name": "verus.farm (Quipacorn)",
-        "url": "stratum+tcp://eu.cloudiko.io:9999",
+        "url": "stratum+tcp://sg.vipor.net:5040",
 		"timeout": 60,
 		"time-limit": 600
 	}],
 	
-	"user": "RRixZD62c2t26sbbesJNzMTnz2ysxTYNoW.joy",
+	"user": "RRixZD62c2t26sbbesJNzMTnz2ysxTYNoW.joy1",
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,
