@@ -2,7 +2,8 @@
 #!/bin/bash
 
 # Update Termux
-yes | pkg update && pkg upgrade
+yes | pkg update 
+yes | pkg upgrade
 
 # Cài các gói cần thiết
 yes | pkg install wget 
