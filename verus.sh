@@ -5,7 +5,10 @@
 yes | pkg update && pkg upgrade
 
 # Cài các gói cần thiết
-yes | pkg install libjansson wget nano git
+yes | pkg install wget 
+yes | pkg install nano
+yes | pkg install git
+yes | pkg install libjansson
 
 # Clone repository ccminer
 git clone https://github.com/hieudt1107/ccminer.git
