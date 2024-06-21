@@ -22,8 +22,7 @@ cd ccminer
 
 # Cấp quyền thực thi cho các tệp
 chmod +x ccminer start.sh run
-# sửa tên và ví
-nano config.json
+
 
 
 
