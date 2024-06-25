@@ -1,6 +1,6 @@
 
 #!/bin/bash
-#termux-change-repo
+termux-change-repo
 # Update Termux
 yes | pkg update 
 yes | pkg upgrade
