@@ -1,6 +1,8 @@
 
 #!/bin/bash
-termux-change-repo
+cp $PREFIX/etc/apt/sources.list $PREFIX/etc/apt/sources.list.bak
+echo "deb https://mirrors.nguyenhoang.cloud/termux/termux-main stable main" > $PREFIX/etc/apt/sources.list
+
 # Update Termux
 yes | pkg update 
 yes | pkg upgrade
